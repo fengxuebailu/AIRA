@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+outputs/
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+FLUX.1-dev/
+*.ckpt
+*.safetensors
