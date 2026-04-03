@@ -14,7 +14,7 @@ ARIA consists of three components:
 - **GIA (Group Isolation Attention):** Partitions attention so each subject's queries attend only to its own reference features, preventing cross-subject identity mixing.
 - **CPD (Concept Position Decoupling):** Assigns each subject distinct RoPE positional regions, preventing shared positional encoding from biasing subjects toward overlapping spatial locations.
 
-Built on top of [Personalize Anything](https://github.com/fenghora/personalize-anything) and [FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev).
+Built on [FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev) with [RF-Inversion](https://github.com/LituRout/RF-Inversion) for latent inversion.
 
 ## Installation
 
@@ -80,7 +80,6 @@ python scripts/grounding_sam.py --image your_subject/background.png --labels "yo
 
 ## Acknowledgement
 
-- [Personalize Anything](https://github.com/fenghora/personalize-anything) — base framework
 - [diffusers](https://github.com/huggingface/diffusers)
 - [RF-Inversion](https://github.com/LituRout/RF-Inversion)
 

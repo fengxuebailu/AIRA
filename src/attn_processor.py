@@ -36,7 +36,7 @@ def set_flux_transformer_attn_processor(
 
     transformer.set_attn_processor(attn_procs)
 
-class PersonalizeAnythingAttnProcessor:
+class BaseIdentityAttnProcessor:
     
     def __init__(self, name, mask, device, tau=0.98, concept_process=False, shift_mask = None, img_dims=4096):
         if not hasattr(F, "scaled_dot_product_attention"):
@@ -232,7 +232,7 @@ class PersonalizeAnythingAttnProcessor:
             
             return hidden_states
         
-class MultiPersonalizeAnythingAttnProcessor:
+class MultiSubjectAttnProcessor:
     
     def __init__(self, name, masks, device, tau=0.98, concept_process=False, shift_masks = None, img_dims=4096):
         if not hasattr(F, "scaled_dot_product_attention"):

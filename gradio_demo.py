@@ -6,7 +6,7 @@ from src.utils import *
 from scripts.grounding_sam import *
 from diffusers.models.attention_processor import FluxAttnProcessor2_0
 from src.attn_processor import (
-    PersonalizeAnythingAttnProcessor,
+    BaseIdentityAttnProcessor,
     set_flux_transformer_attn_processor,
 )
 from src.pipeline import RFInversionParallelFluxPipeline
@@ -93,7 +93,7 @@ INPAINTING_EXAMPLES = [
     ],
     [
         "example_data/pucket/background.png",
-        "A white bucket with the words 'Personalize Anything' written on it.",
+        "A white bucket with the words 'ARIA' written on it.",
     ],
 ]
 
@@ -193,7 +193,7 @@ def generate_image(prompt, seed, timestep, tau, random_seed, height=None, width=
 
     set_flux_transformer_attn_processor(
         pipe.transformer,
-        set_attn_proc_func=lambda name, dh, nh, ap: PersonalizeAnythingAttnProcessor(
+        set_attn_proc_func=lambda name, dh, nh, ap: BaseIdentityAttnProcessor(
             name=name, tau=tau / 100, mask=mask, device=device, img_dims=img_dims
         ),
     )
