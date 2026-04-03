@@ -55,7 +55,7 @@ python gradio_demo.py
 ARIA/
 ├── src/
 │   ├── aria_processor.py      # ARIA attention processors (LSI + GIA + CPD)
-│   ├── attn_processor.py      # Base PA attention processor
+│   ├── attn_processor.py      # Base attention processor
 │   ├── pipeline.py            # FLUX diffusion pipeline with RF-Inversion
 │   └── utils.py               # Mask creation and image utilities
 ├── inference_single.py        # Single-subject example
