@@ -1,0 +1,432 @@
+{
+  "status": "surviving_local_config_not_independently_reverified",
+  "source": "paper/rebuttal/scripts/pack_a_triples_config.py",
+  "seeds": [
+    42,
+    43,
+    44,
+    45
+  ],
+  "scenes": {
+    "hard_3dogs": {
+      "tier": "hard",
+      "subjects": [
+        "dog",
+        "dog2",
+        "dog3"
+      ],
+      "prompts": [
+        "a corgi, a brown dog, and a husky together in a sunny park, photorealistic, professional photography, 8k",
+        "a corgi, a brown dog, and a husky arranged together for a magazine cover shoot, studio lighting, sharp focus",
+        "dog, dog2, and dog3 in a flower garden, soft daylight, depth of field",
+        "dog, dog2, and dog3 on a wooden library desk, ambient evening light, painterly style",
+        "dog, dog2, and dog3 on a city rooftop at golden hour, cinematic composition"
+      ],
+      "bboxes": [
+        [
+          40,
+          280,
+          380,
+          760
+        ],
+        [
+          340,
+          200,
+          700,
+          800
+        ],
+        [
+          680,
+          280,
+          1000,
+          760
+        ]
+      ]
+    },
+    "hard_3cats": {
+      "tier": "hard",
+      "subjects": [
+        "cat",
+        "cat2",
+        "cat3"
+      ],
+      "prompts": [
+        "a calico cat, a tabby cat, and a gray cat in a flower garden, soft daylight, depth of field",
+        "a calico cat, a tabby cat, and a gray cat in a cozy kitchen scene, warm light, lifestyle photography",
+        "cat, cat2, and cat3 in a flower garden, soft daylight, depth of field",
+        "cat, cat2, and cat3 on a wooden library desk, ambient evening light, painterly style",
+        "cat, cat2, and cat3 on a city rooftop at golden hour, cinematic composition"
+      ],
+      "bboxes": [
+        [
+          40,
+          280,
+          380,
+          760
+        ],
+        [
+          340,
+          200,
+          700,
+          800
+        ],
+        [
+          680,
+          280,
+          1000,
+          760
+        ]
+      ]
+    },
+    "hard_3plushies": {
+      "tier": "hard",
+      "subjects": [
+        "bear_plushie",
+        "grey_sloth_plushie",
+        "wolf_plushie"
+      ],
+      "prompts": [
+        "a bear plushie, a sloth plushie, and a wolf plushie arranged together for a magazine cover shoot, studio lighting, sharp focus",
+        "a bear plushie, a sloth plushie, and a wolf plushie on a wooden library desk, ambient evening light, painterly style",
+        "bear plushie, grey sloth plushie, and wolf plushie in a flower garden, soft daylight, depth of field",
+        "bear plushie, grey sloth plushie, and wolf plushie on a wooden library desk, ambient evening light, painterly style",
+        "bear plushie, grey sloth plushie, and wolf plushie on a city rooftop at golden hour, cinematic composition"
+      ],
+      "bboxes": [
+        [
+          40,
+          280,
+          380,
+          760
+        ],
+        [
+          340,
+          200,
+          700,
+          800
+        ],
+        [
+          680,
+          280,
+          1000,
+          760
+        ]
+      ]
+    },
+    "med_cat_dog_plushie": {
+      "tier": "medium",
+      "subjects": [
+        "cat",
+        "dog",
+        "bear_plushie"
+      ],
+      "prompts": [
+        "a calico cat, a corgi, and a bear plushie in a cozy kitchen scene, warm light, lifestyle photography",
+        "a calico cat, a corgi, and a bear plushie arranged together for a magazine cover shoot, studio lighting, sharp focus",
+        "cat, dog, and bear plushie in a flower garden, soft daylight, depth of field",
+        "cat, dog, and bear plushie on a wooden library desk, ambient evening light, painterly style",
+        "cat, dog, and bear plushie on a city rooftop at golden hour, cinematic composition"
+      ],
+      "bboxes": [
+        [
+          40,
+          280,
+          380,
+          760
+        ],
+        [
+          340,
+          200,
+          700,
+          800
+        ],
+        [
+          680,
+          280,
+          1000,
+          760
+        ]
+      ]
+    },
+    "med_dog_plush_teapot": {
+      "tier": "medium",
+      "subjects": [
+        "dog",
+        "wolf_plushie",
+        "teapot"
+      ],
+      "prompts": [
+        "a corgi, a wolf plushie, and a vintage teapot on a wooden library desk, ambient evening light, painterly style",
+        "a corgi, a wolf plushie, and a vintage teapot in a flower garden, soft daylight, depth of field",
+        "dog, wolf plushie, and teapot in a flower garden, soft daylight, depth of field",
+        "dog, wolf plushie, and teapot on a wooden library desk, ambient evening light, painterly style",
+        "dog, wolf plushie, and teapot on a city rooftop at golden hour, cinematic composition"
+      ],
+      "bboxes": [
+        [
+          40,
+          280,
+          380,
+          760
+        ],
+        [
+          340,
+          200,
+          700,
+          800
+        ],
+        [
+          680,
+          280,
+          1000,
+          760
+        ]
+      ]
+    },
+    "med_cat_robot_bear": {
+      "tier": "medium",
+      "subjects": [
+        "cat",
+        "robot_toy",
+        "bear_plushie"
+      ],
+      "prompts": [
+        "a calico cat, a robot toy, and a bear plushie arranged together for a magazine cover shoot, studio lighting, sharp focus",
+        "a calico cat, a robot toy, and a bear plushie together in a sunny park, photorealistic, professional photography, 8k",
+        "cat, robot toy, and bear plushie in a flower garden, soft daylight, depth of field",
+        "cat, robot toy, and bear plushie on a wooden library desk, ambient evening light, painterly style",
+        "cat, robot toy, and bear plushie on a city rooftop at golden hour, cinematic composition"
+      ],
+      "bboxes": [
+        [
+          40,
+          280,
+          380,
+          760
+        ],
+        [
+          340,
+          200,
+          700,
+          800
+        ],
+        [
+          680,
+          280,
+          1000,
+          760
+        ]
+      ]
+    },
+    "easy_dog_teapot_vase": {
+      "tier": "easy",
+      "subjects": [
+        "dog",
+        "teapot",
+        "vase"
+      ],
+      "prompts": [
+        "a corgi, a vintage teapot, and a ceramic vase on a wooden library desk, ambient evening light, painterly style",
+        "a corgi, a vintage teapot, and a ceramic vase in a cozy kitchen scene, warm light, lifestyle photography",
+        "dog, teapot, and vase in a flower garden, soft daylight, depth of field",
+        "dog, teapot, and vase on a wooden library desk, ambient evening light, painterly style",
+        "dog, teapot, and vase on a city rooftop at golden hour, cinematic composition"
+      ],
+      "bboxes": [
+        [
+          40,
+          280,
+          380,
+          760
+        ],
+        [
+          340,
+          200,
+          700,
+          800
+        ],
+        [
+          680,
+          280,
+          1000,
+          760
+        ]
+      ]
+    },
+    "easy_cat_sunglasses_clock": {
+      "tier": "easy",
+      "subjects": [
+        "cat",
+        "pink_sunglasses",
+        "clock"
+      ],
+      "prompts": [
+        "a calico cat, pink sunglasses, and a wall clock arranged together for a magazine cover shoot, studio lighting, sharp focus",
+        "a calico cat, pink sunglasses, and a wall clock on a city rooftop at golden hour, cinematic composition",
+        "cat, pink sunglasses, and clock in a flower garden, soft daylight, depth of field",
+        "cat, pink sunglasses, and clock on a wooden library desk, ambient evening light, painterly style",
+        "cat, pink sunglasses, and clock on a city rooftop at golden hour, cinematic composition"
+      ],
+      "bboxes": [
+        [
+          40,
+          280,
+          380,
+          760
+        ],
+        [
+          340,
+          200,
+          700,
+          800
+        ],
+        [
+          680,
+          280,
+          1000,
+          760
+        ]
+      ]
+    },
+    "easy_dog_candle_sneaker": {
+      "tier": "easy",
+      "subjects": [
+        "dog",
+        "candle",
+        "shiny_sneaker"
+      ],
+      "prompts": [
+        "a corgi, a candle, and a shiny sneaker arranged together for a magazine cover shoot, studio lighting, sharp focus",
+        "a corgi, a candle, and a shiny sneaker together in a sunny park, photorealistic, professional photography, 8k",
+        "dog, candle, and shiny sneaker in a flower garden, soft daylight, depth of field",
+        "dog, candle, and shiny sneaker on a wooden library desk, ambient evening light, painterly style",
+        "dog, candle, and shiny sneaker on a city rooftop at golden hour, cinematic composition"
+      ],
+      "bboxes": [
+        [
+          40,
+          280,
+          380,
+          760
+        ],
+        [
+          340,
+          200,
+          700,
+          800
+        ],
+        [
+          680,
+          280,
+          1000,
+          760
+        ]
+      ]
+    },
+    "occl_cat_dog_plushie": {
+      "tier": "occlusion",
+      "subjects": [
+        "cat",
+        "dog",
+        "bear_plushie"
+      ],
+      "prompts": [
+        "a calico cat sitting on top of a corgi with a bear plushie peeking from behind, dramatic light, close-up shot",
+        "a calico cat and a corgi hugging in the foreground with a bear plushie standing close, warm intimate scene",
+        "cat, dog, and bear plushie in a flower garden, soft daylight, depth of field",
+        "cat, dog, and bear plushie on a wooden library desk, ambient evening light, painterly style",
+        "cat, dog, and bear plushie on a city rooftop at golden hour, cinematic composition"
+      ],
+      "bboxes": [
+        [
+          200,
+          200,
+          600,
+          700
+        ],
+        [
+          400,
+          350,
+          800,
+          850
+        ],
+        [
+          650,
+          200,
+          1000,
+          600
+        ]
+      ]
+    },
+    "occl_3dogs": {
+      "tier": "occlusion",
+      "subjects": [
+        "dog",
+        "dog2",
+        "dog3"
+      ],
+      "prompts": [
+        "a corgi, a brown dog, and a husky huddled together filling the frame, group portrait, soft daylight",
+        "a corgi sitting on top of a brown dog with a husky peeking from behind, dramatic light, close-up shot",
+        "dog, dog2, and dog3 in a flower garden, soft daylight, depth of field",
+        "dog, dog2, and dog3 on a wooden library desk, ambient evening light, painterly style",
+        "dog, dog2, and dog3 on a city rooftop at golden hour, cinematic composition"
+      ],
+      "bboxes": [
+        [
+          100,
+          250,
+          500,
+          800
+        ],
+        [
+          350,
+          200,
+          750,
+          850
+        ],
+        [
+          600,
+          250,
+          1000,
+          800
+        ]
+      ]
+    },
+    "occl_plushie_trio": {
+      "tier": "occlusion",
+      "subjects": [
+        "bear_plushie",
+        "grey_sloth_plushie",
+        "wolf_plushie"
+      ],
+      "prompts": [
+        "a bear plushie, a sloth plushie, and a wolf plushie huddled together filling the frame, group portrait, soft daylight",
+        "a bear plushie and a sloth plushie hugging in the foreground with a wolf plushie standing close, warm intimate scene",
+        "bear plushie, grey sloth plushie, and wolf plushie in a flower garden, soft daylight, depth of field",
+        "bear plushie, grey sloth plushie, and wolf plushie on a wooden library desk, ambient evening light, painterly style",
+        "bear plushie, grey sloth plushie, and wolf plushie on a city rooftop at golden hour, cinematic composition"
+      ],
+      "bboxes": [
+        [
+          150,
+          280,
+          540,
+          800
+        ],
+        [
+          380,
+          250,
+          760,
+          820
+        ],
+        [
+          640,
+          280,
+          1000,
+          800
+        ]
+      ]
+    }
+  }
+}

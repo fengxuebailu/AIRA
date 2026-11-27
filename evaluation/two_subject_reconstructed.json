@@ -1,0 +1,901 @@
+{
+  "status": "reconstructed_candidate_not_original_paper_protocol",
+  "test": {
+    "dog_dog_A": {
+      "subjects": [
+        "dog",
+        "dog6"
+      ],
+      "similarity": "high",
+      "prompts": [
+        {
+          "text": "a sks1 dog and a sks2 dog playing fetch together in a sunny park",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 dog and a sks2 dog lying side by side on a living room couch",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 dog and a sks2 dog sitting close together against a warm orange studio backdrop, both clearly visible",
+          "provenance": "figure_scene_inference"
+        },
+        {
+          "text": "a sks1 dog and a sks2 dog running side by side along a sandy beach at sunset",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 dog and a sks2 dog resting separately on a picnic blanket in a leafy garden",
+          "provenance": "new_scene_reconstruction"
+        }
+      ]
+    },
+    "dog_dog_B": {
+      "subjects": [
+        "dog3",
+        "dog8"
+      ],
+      "similarity": "high",
+      "prompts": [
+        {
+          "text": "a sks1 dog and a sks2 dog waiting at a veterinary clinic",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 dog and a sks2 dog posing together on a mountain trail",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 dog and a sks2 dog sitting apart in a bright photography studio",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 dog and a sks2 dog walking together through an autumn park",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 dog and a sks2 dog looking toward the camera from opposite sides of a garden path",
+          "provenance": "new_scene_reconstruction"
+        }
+      ]
+    },
+    "dog_dog_C": {
+      "subjects": [
+        "dog2",
+        "dog5"
+      ],
+      "similarity": "high",
+      "prompts": [
+        {
+          "text": "a sks1 dog and a sks2 dog resting together on a porch in the afternoon sun",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 dog and a sks2 dog standing side by side on a forest trail",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 dog and a sks2 dog playing together on a grassy lawn in morning light",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 dog and a sks2 dog sitting separately beside a wooden garden fence",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 dog and a sks2 dog resting on opposite ends of a blue living room rug",
+          "provenance": "new_scene_reconstruction"
+        }
+      ]
+    },
+    "cat_cat": {
+      "subjects": [
+        "cat",
+        "cat2"
+      ],
+      "similarity": "high",
+      "prompts": [
+        {
+          "text": "a sks1 cat and a sks2 cat sitting together on a windowsill watching birds",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 cat and a sks2 cat playing with a ball of yarn on a wooden floor",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 cat and a sks2 cat sitting apart on a sunlit wooden porch",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 cat and a sks2 cat resting on opposite cushions of a velvet sofa",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 cat and a sks2 cat watching a toy mouse together on a patterned rug",
+          "provenance": "new_scene_reconstruction"
+        }
+      ]
+    },
+    "sneaker_sneaker": {
+      "subjects": [
+        "colorful_sneaker",
+        "shiny_sneaker"
+      ],
+      "similarity": "high",
+      "prompts": [
+        {
+          "text": "a sks1 sneaker and a sks2 sneaker displayed on a store shelf with spotlights",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 sneaker and a sks2 sneaker placed side by side on a wooden table",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 sneaker and a sks2 sneaker displayed separately on white pedestals in a shoe store",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 sneaker and a sks2 sneaker placed on a concrete step under soft outdoor light",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 sneaker and a sks2 sneaker standing side by side on a colorful studio floor",
+          "provenance": "new_scene_reconstruction"
+        }
+      ]
+    },
+    "plushie_plushie": {
+      "subjects": [
+        "bear_plushie",
+        "grey_sloth_plushie"
+      ],
+      "similarity": "high",
+      "prompts": [
+        {
+          "text": "a sks1 stuffed animal and a sks2 stuffed animal sitting together on a child's bed",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 stuffed animal and a sks2 stuffed animal propped up on a park bench",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 stuffed animal and a sks2 stuffed animal sitting apart among pillows on a child's bed",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 stuffed animal and a sks2 stuffed animal displayed on separate chairs in a playroom",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 stuffed animal and a sks2 stuffed animal resting side by side on a picnic blanket",
+          "provenance": "new_scene_reconstruction"
+        }
+      ]
+    },
+    "backpack_pair": {
+      "subjects": [
+        "backpack",
+        "backpack_dog"
+      ],
+      "similarity": "high",
+      "prompts": [
+        {
+          "text": "a sks1 backpack and a sks2 backpack hanging on hooks in a school hallway",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 backpack and a sks2 backpack placed side by side on a wooden bench",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 backpack and a sks2 backpack standing separately beside a school locker",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 backpack and a sks2 backpack placed on opposite ends of a classroom table",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 backpack and a sks2 backpack leaning against a wall at a campsite",
+          "provenance": "new_scene_reconstruction"
+        }
+      ]
+    },
+    "toy_mech": {
+      "subjects": [
+        "rc_car",
+        "robot_toy"
+      ],
+      "similarity": "high",
+      "prompts": [
+        {
+          "text": "a sks1 toy car and a sks2 toy robot on a playroom floor with building blocks",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 toy car and a sks2 toy robot displayed on a shelf in a boy's bedroom",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 toy car and a sks2 toy robot placed separately on a wooden desk in a bright playroom",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 toy car and a sks2 toy robot standing among building blocks on a blue carpet",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 toy car and a sks2 toy robot displayed on a shelf under warm bedroom lighting",
+          "provenance": "new_scene_reconstruction"
+        }
+      ]
+    },
+    "toy_figurine": {
+      "subjects": [
+        "duck_toy",
+        "monster_toy"
+      ],
+      "similarity": "high",
+      "prompts": [
+        {
+          "text": "a sks1 toy and a sks2 toy displayed on a shelf in a children's bedroom",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 toy and a sks2 toy sitting on a desk next to a computer monitor",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 toy and a sks2 toy standing side by side on a colorful playroom floor",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 toy and a sks2 toy placed separately beside crayons on a child's desk",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 toy and a sks2 toy displayed on a white shelf against a blue wall",
+          "provenance": "new_scene_reconstruction"
+        }
+      ]
+    },
+    "dog_wolfplush": {
+      "subjects": [
+        "dog7",
+        "wolf_plushie"
+      ],
+      "similarity": "medium",
+      "prompts": [
+        {
+          "text": "a sks1 dog and a sks2 stuffed animal sitting together in a living room",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 dog and a sks2 stuffed animal placed on a park bench with autumn leaves",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 dog and a sks2 stuffed animal sitting apart on a living room rug",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 dog and a sks2 stuffed animal resting beside a wooden bench in an autumn garden",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 dog and a sks2 stuffed animal posed side by side against a neutral studio background",
+          "provenance": "new_scene_reconstruction"
+        }
+      ]
+    },
+    "teapot_vase": {
+      "subjects": [
+        "teapot",
+        "vase"
+      ],
+      "similarity": "medium",
+      "prompts": [
+        {
+          "text": "a sks1 teapot and a sks2 vase on a wooden desk in a professor's study",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 teapot and a sks2 vase on a shelf in a minimalist white apartment",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 teapot and a sks2 vase standing separately on a wooden desk in a quiet study, the vase holding dried flowers",
+          "provenance": "figure_scene_inference"
+        },
+        {
+          "text": "a sks1 teapot and a sks2 vase displayed on opposite ends of a rustic dining table",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 teapot and a sks2 vase placed beside a window in a sunlit artist's studio",
+          "provenance": "new_scene_reconstruction"
+        }
+      ]
+    },
+    "cat_bearplush": {
+      "subjects": [
+        "cat",
+        "bear_plushie"
+      ],
+      "similarity": "medium",
+      "prompts": [
+        {
+          "text": "a sks1 cat and a sks2 stuffed animal together on a velvet sofa in a dim room",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 cat and a sks2 stuffed animal in a garden surrounded by sunflowers",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 cat and a sks2 stuffed animal sitting separately in a sunflower garden, both clearly visible",
+          "provenance": "figure_scene_inference"
+        },
+        {
+          "text": "a sks1 cat and a sks2 stuffed animal resting together on a floral picnic blanket",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 cat and a sks2 stuffed animal posed side by side against a warm orange studio backdrop",
+          "provenance": "new_scene_reconstruction"
+        }
+      ]
+    },
+    "dog_slothplush": {
+      "subjects": [
+        "dog",
+        "grey_sloth_plushie"
+      ],
+      "similarity": "medium",
+      "prompts": [
+        {
+          "text": "a sks1 dog and a sks2 stuffed animal resting together on a couch",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 dog and a sks2 stuffed animal sitting on a rug by the fireplace",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 dog and a sks2 stuffed animal sitting separately on a sunlit bedroom floor",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 dog and a sks2 stuffed animal resting beside a fireplace on a woven rug",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 dog and a sks2 stuffed animal posed together on a park bench in spring",
+          "provenance": "new_scene_reconstruction"
+        }
+      ]
+    },
+    "dog_dogpack": {
+      "subjects": [
+        "dog5",
+        "backpack_dog"
+      ],
+      "similarity": "medium",
+      "prompts": [
+        {
+          "text": "a sks1 dog and a sks2 backpack on the floor of a school corridor",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 dog and a sks2 backpack sitting together on a front porch",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 dog and a sks2 backpack standing apart near a wooden park bench",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 dog and a sks2 backpack sitting separately on a classroom rug",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 dog and a sks2 backpack posed side by side on a bright front porch",
+          "provenance": "new_scene_reconstruction"
+        }
+      ]
+    },
+    "sneaker_monster": {
+      "subjects": [
+        "colorful_sneaker",
+        "monster_toy"
+      ],
+      "similarity": "medium",
+      "prompts": [
+        {
+          "text": "a sks1 sneaker and a sks2 toy sitting on a shelf in a teenager's room",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 sneaker and a sks2 toy placed side by side on a colorful rug",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 sneaker and a sks2 toy displayed separately on a colorful shelf",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 sneaker and a sks2 toy placed together beside a skateboard on a concrete floor",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 sneaker and a sks2 toy standing apart on a bedroom desk under warm light",
+          "provenance": "new_scene_reconstruction"
+        }
+      ]
+    },
+    "boot_sneaker": {
+      "subjects": [
+        "fancy_boot",
+        "shiny_sneaker"
+      ],
+      "similarity": "medium",
+      "prompts": [
+        {
+          "text": "a sks1 boot and a sks2 sneaker displayed in a shoe store window",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 boot and a sks2 sneaker placed side by side on a wooden shelf",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 boot and a sks2 sneaker displayed separately on white blocks in a shoe store",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 boot and a sks2 sneaker placed on a cobblestone sidewalk after rain",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 boot and a sks2 sneaker standing side by side on a wooden bedroom floor",
+          "provenance": "new_scene_reconstruction"
+        }
+      ]
+    },
+    "duck_poop": {
+      "subjects": [
+        "duck_toy",
+        "poop_emoji"
+      ],
+      "similarity": "medium",
+      "prompts": [
+        {
+          "text": "a sks1 toy and a sks2 toy sitting on a bathroom counter next to a mirror",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 toy and a sks2 toy placed together on a child's desk with crayons",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 toy and a sks2 toy standing separately on a colorful bathroom shelf",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 toy and a sks2 toy placed side by side on a playroom table",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 toy and a sks2 toy displayed among crayons on a bright yellow desk",
+          "provenance": "new_scene_reconstruction"
+        }
+      ]
+    },
+    "dog_candle": {
+      "subjects": [
+        "dog6",
+        "candle"
+      ],
+      "similarity": "low",
+      "prompts": [
+        {
+          "text": "a sks1 dog and a sks2 candle in a cozy living room on a winter evening",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 dog and a sks2 candle on a wooden table at a rustic cabin",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 dog and a sks2 candle sitting beside an unlit candle on a wooden floor",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 dog and a sks2 candle resting near a candle on a table in a cozy cabin",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 dog and a sks2 candle posed separately against a warm studio background",
+          "provenance": "new_scene_reconstruction"
+        }
+      ]
+    },
+    "dog_clock": {
+      "subjects": [
+        "dog3",
+        "clock"
+      ],
+      "similarity": "low",
+      "prompts": [
+        {
+          "text": "a sks1 dog and a sks2 clock on a bedside table in a sunny bedroom",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 dog and a sks2 clock sitting together on a professor's desk",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 dog and a sks2 clock sitting beside a bright yellow alarm clock in a cozy room",
+          "provenance": "figure_scene_inference"
+        },
+        {
+          "text": "a sks1 dog and a sks2 clock resting near an alarm clock on a patterned living room rug",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 dog and a sks2 clock posed beside an alarm clock against a floral studio backdrop",
+          "provenance": "new_scene_reconstruction"
+        }
+      ],
+      "warning": "The paper figure shows a fluffy white dog, but the surviving dog_clock configuration uses dog3 (corgi). Verify the reference mapping before generation."
+    },
+    "dog_teapot": {
+      "subjects": [
+        "dog8",
+        "teapot"
+      ],
+      "similarity": "low",
+      "prompts": [
+        {
+          "text": "a sks1 dog and a sks2 teapot on a kitchen table in a cozy cottage",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 dog and a sks2 teapot in a sunny garden with white furniture",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 dog and a sks2 teapot sitting near a teapot in a sunlit kitchen",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 dog and a sks2 teapot resting beside a teapot on a garden patio",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 dog and a sks2 teapot posed separately against a neutral studio backdrop",
+          "provenance": "new_scene_reconstruction"
+        }
+      ]
+    },
+    "cat_vase": {
+      "subjects": [
+        "cat2",
+        "vase"
+      ],
+      "similarity": "low",
+      "prompts": [
+        {
+          "text": "a sks1 cat and a sks2 vase on a wooden shelf in an artist's studio",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 cat and a sks2 vase together on a windowsill with afternoon light",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 cat and a sks2 vase sitting beside a vase of dried flowers on a wooden table",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 cat and a sks2 vase resting near a ceramic vase in a bright living room",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 cat and a sks2 vase posed separately against a pale studio background",
+          "provenance": "new_scene_reconstruction"
+        }
+      ]
+    },
+    "dog_poop": {
+      "subjects": [
+        "dog2",
+        "poop_emoji"
+      ],
+      "similarity": "low",
+      "prompts": [
+        {
+          "text": "a sks1 dog and a sks2 toy sitting together on a grassy lawn",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 dog and a sks2 toy placed on a park bench in autumn",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 dog and a sks2 toy sitting beside a small figurine on a picnic blanket",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 dog and a sks2 toy standing near a figurine on a sunny park path",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 dog and a sks2 toy posed separately on a colorful studio floor",
+          "provenance": "new_scene_reconstruction"
+        }
+      ]
+    },
+    "dog_car": {
+      "subjects": [
+        "dog7",
+        "rc_car"
+      ],
+      "similarity": "low",
+      "prompts": [
+        {
+          "text": "a sks1 dog and a sks2 toy car on a living room carpet",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 dog and a sks2 toy car sitting on a front porch step",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 dog and a sks2 toy car lying beside a red toy car on a living room carpet, both clearly visible",
+          "provenance": "figure_scene_inference"
+        },
+        {
+          "text": "a sks1 dog and a sks2 toy car sitting near a toy car on a sunlit driveway",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 dog and a sks2 toy car posed separately on a playroom floor",
+          "provenance": "new_scene_reconstruction"
+        }
+      ]
+    },
+    "plush_robot": {
+      "subjects": [
+        "wolf_plushie",
+        "robot_toy"
+      ],
+      "similarity": "low",
+      "prompts": [
+        {
+          "text": "a sks1 stuffed animal and a sks2 toy robot on a child's desk with crayons",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 stuffed animal and a sks2 toy robot sitting on a bookshelf",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 stuffed animal and a sks2 toy robot sitting apart on a playroom rug",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 stuffed animal and a sks2 toy robot displayed separately on a wooden toy shelf",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 stuffed animal and a sks2 toy robot posed among building blocks on a child's desk",
+          "provenance": "new_scene_reconstruction"
+        }
+      ]
+    },
+    "backpack_boot": {
+      "subjects": [
+        "backpack",
+        "fancy_boot"
+      ],
+      "similarity": "low",
+      "prompts": [
+        {
+          "text": "a sks1 backpack and a sks2 boot on the floor of a clothing store",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 backpack and a sks2 boot on a wooden bench at a train station",
+          "provenance": "surviving_experiment_config"
+        },
+        {
+          "text": "a sks1 backpack and a sks2 boot placed separately beside a train station bench",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 backpack and a sks2 boot displayed on opposite shelves in a clothing store",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 backpack and a sks2 boot standing side by side on a wooden cabin floor",
+          "provenance": "new_scene_reconstruction"
+        }
+      ]
+    }
+  },
+  "validation": {
+    "dog_cat2": {
+      "subjects": [
+        "dog",
+        "cat2"
+      ],
+      "prompts": [
+        {
+          "text": "a sks1 dog and a sks2 cat shown separately in a cozy room under soft morning light",
+          "provenance": "new_heldout_candidate"
+        },
+        {
+          "text": "a sks1 dog and a sks2 cat posed apart against a neutral photography studio backdrop",
+          "provenance": "new_heldout_candidate"
+        },
+        {
+          "text": "a sks1 dog and a sks2 cat shown together near a patterned living room rug",
+          "provenance": "new_heldout_candidate"
+        },
+        {
+          "text": "a sks1 dog and a sks2 cat shown on opposite sides of a park bench in autumn",
+          "provenance": "new_heldout_candidate"
+        },
+        {
+          "text": "a sks1 dog and a sks2 cat displayed separately in a bright room with a large window",
+          "provenance": "new_heldout_candidate"
+        }
+      ]
+    },
+    "dog2_vase": {
+      "subjects": [
+        "dog2",
+        "vase"
+      ],
+      "prompts": [
+        {
+          "text": "a sks1 dog and a sks2 vase shown separately in a cozy room under soft morning light",
+          "provenance": "new_heldout_candidate"
+        },
+        {
+          "text": "a sks1 dog and a sks2 vase posed apart against a neutral photography studio backdrop",
+          "provenance": "new_heldout_candidate"
+        },
+        {
+          "text": "a sks1 dog and a sks2 vase shown together near a patterned living room rug",
+          "provenance": "new_heldout_candidate"
+        },
+        {
+          "text": "a sks1 dog and a sks2 vase shown on opposite sides of a park bench in autumn",
+          "provenance": "new_heldout_candidate"
+        },
+        {
+          "text": "a sks1 dog and a sks2 vase displayed separately in a bright room with a large window",
+          "provenance": "new_heldout_candidate"
+        }
+      ]
+    },
+    "dog7_clock": {
+      "subjects": [
+        "dog7",
+        "clock"
+      ],
+      "prompts": [
+        {
+          "text": "a sks1 dog and a sks2 clock shown separately in a cozy room under soft morning light",
+          "provenance": "new_heldout_candidate"
+        },
+        {
+          "text": "a sks1 dog and a sks2 clock posed apart against a neutral photography studio backdrop",
+          "provenance": "new_heldout_candidate"
+        },
+        {
+          "text": "a sks1 dog and a sks2 clock shown together near a patterned living room rug",
+          "provenance": "new_heldout_candidate"
+        },
+        {
+          "text": "a sks1 dog and a sks2 clock shown on opposite sides of a park bench in autumn",
+          "provenance": "new_heldout_candidate"
+        },
+        {
+          "text": "a sks1 dog and a sks2 clock displayed separately in a bright room with a large window",
+          "provenance": "new_heldout_candidate"
+        }
+      ]
+    },
+    "cat_robot": {
+      "subjects": [
+        "cat",
+        "robot_toy"
+      ],
+      "prompts": [
+        {
+          "text": "a sks1 cat and a sks2 toy robot shown separately in a cozy room under soft morning light",
+          "provenance": "new_heldout_candidate"
+        },
+        {
+          "text": "a sks1 cat and a sks2 toy robot posed apart against a neutral photography studio backdrop",
+          "provenance": "new_heldout_candidate"
+        },
+        {
+          "text": "a sks1 cat and a sks2 toy robot shown together near a patterned living room rug",
+          "provenance": "new_heldout_candidate"
+        },
+        {
+          "text": "a sks1 cat and a sks2 toy robot shown on opposite sides of a park bench in autumn",
+          "provenance": "new_heldout_candidate"
+        },
+        {
+          "text": "a sks1 cat and a sks2 toy robot displayed separately in a bright room with a large window",
+          "provenance": "new_heldout_candidate"
+        }
+      ]
+    },
+    "bear_teapot": {
+      "subjects": [
+        "bear_plushie",
+        "teapot"
+      ],
+      "prompts": [
+        {
+          "text": "a sks1 stuffed animal and a sks2 teapot shown separately in a cozy room under soft morning light",
+          "provenance": "new_heldout_candidate"
+        },
+        {
+          "text": "a sks1 stuffed animal and a sks2 teapot posed apart against a neutral photography studio backdrop",
+          "provenance": "new_heldout_candidate"
+        },
+        {
+          "text": "a sks1 stuffed animal and a sks2 teapot shown together near a patterned living room rug",
+          "provenance": "new_heldout_candidate"
+        },
+        {
+          "text": "a sks1 stuffed animal and a sks2 teapot shown on opposite sides of a park bench in autumn",
+          "provenance": "new_heldout_candidate"
+        },
+        {
+          "text": "a sks1 stuffed animal and a sks2 teapot displayed separately in a bright room with a large window",
+          "provenance": "new_heldout_candidate"
+        }
+      ]
+    },
+    "sneaker_backpack": {
+      "subjects": [
+        "colorful_sneaker",
+        "backpack"
+      ],
+      "prompts": [
+        {
+          "text": "a sks1 sneaker and a sks2 backpack shown separately in a cozy room under soft morning light",
+          "provenance": "new_heldout_candidate"
+        },
+        {
+          "text": "a sks1 sneaker and a sks2 backpack posed apart against a neutral photography studio backdrop",
+          "provenance": "new_heldout_candidate"
+        },
+        {
+          "text": "a sks1 sneaker and a sks2 backpack shown together near a patterned living room rug",
+          "provenance": "new_heldout_candidate"
+        },
+        {
+          "text": "a sks1 sneaker and a sks2 backpack shown on opposite sides of a park bench in autumn",
+          "provenance": "new_heldout_candidate"
+        },
+        {
+          "text": "a sks1 sneaker and a sks2 backpack displayed separately in a bright room with a large window",
+          "provenance": "new_heldout_candidate"
+        }
+      ]
+    }
+  }
+}
