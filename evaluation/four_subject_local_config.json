@@ -1,0 +1,106 @@
+{
+  "status": "surviving_local_config_generation_outputs_not_audited",
+  "source": "scripts/four_subject_config.py",
+  "seeds": [
+    42,
+    43,
+    44,
+    45
+  ],
+  "methods": [
+    "token_replace",
+    "aria_full"
+  ],
+  "scenes": {
+    "quad_plush": {
+      "subjects": [
+        "bear_plushie",
+        "grey_sloth_plushie",
+        "monster_toy",
+        "wolf_plushie"
+      ],
+      "prompts": [
+        "four plush toys sitting side by side on a bookshelf",
+        "four plush toys on a picnic blanket in a park",
+        "four plush toys together in a photography studio, softbox lighting, sharp focus",
+        "four plush toys arranged in a cozy living room, warm natural light, photorealistic",
+        "four plush toys outdoors at golden hour, cinematic composition, professional photography"
+      ]
+    },
+    "quad_animals": {
+      "subjects": [
+        "cat",
+        "dog",
+        "cat2",
+        "dog2"
+      ],
+      "prompts": [
+        "a cat, a dog, another cat and another dog together in a garden",
+        "four pets sitting in a row on a sofa",
+        "a cat, a dog, another cat, and another dog together in a photography studio, softbox lighting, sharp focus",
+        "a cat, a dog, another cat, and another dog arranged in a cozy living room, warm natural light, photorealistic",
+        "a cat, a dog, another cat, and another dog outdoors at golden hour, cinematic composition, professional photography"
+      ]
+    },
+    "quad_objects": {
+      "subjects": [
+        "teapot",
+        "vase",
+        "candle",
+        "clock"
+      ],
+      "prompts": [
+        "a teapot, a vase, a candle and a clock arranged on a wooden desk",
+        "a teapot, a vase, a candle and a clock on a window shelf",
+        "a teapot, a vase, a candle, and a clock together in a photography studio, softbox lighting, sharp focus",
+        "a teapot, a vase, a candle, and a clock arranged in a cozy living room, warm natural light, photorealistic",
+        "a teapot, a vase, a candle, and a clock outdoors at golden hour, cinematic composition, professional photography"
+      ]
+    },
+    "mix_pets_toys": {
+      "subjects": [
+        "cat",
+        "dog",
+        "robot_toy",
+        "monster_toy"
+      ],
+      "prompts": [
+        "a cat and a dog playing with a robot toy and a monster toy on the living room floor",
+        "a cat, a dog, a robot toy and a monster toy in a kids' room",
+        "a cat, a dog, a robot toy, and a monster toy together in a photography studio, softbox lighting, sharp focus",
+        "a cat, a dog, a robot toy, and a monster toy arranged in a cozy living room, warm natural light, photorealistic",
+        "a cat, a dog, a robot toy, and a monster toy outdoors at golden hour, cinematic composition, professional photography"
+      ]
+    },
+    "mix_wear": {
+      "subjects": [
+        "backpack",
+        "sneaker",
+        "fancy_boot",
+        "pink_sunglasses"
+      ],
+      "prompts": [
+        "a backpack, a sneaker, a boot and sunglasses laid out flat on a rug",
+        "a backpack, a sneaker, a boot and sunglasses by the front door",
+        "a backpack, a sneaker, a boot, and sunglasses together in a photography studio, softbox lighting, sharp focus",
+        "a backpack, a sneaker, a boot, and sunglasses arranged in a cozy living room, warm natural light, photorealistic",
+        "a backpack, a sneaker, a boot, and sunglasses outdoors at golden hour, cinematic composition, professional photography"
+      ]
+    },
+    "hard_dogs_plush": {
+      "subjects": [
+        "dog",
+        "dog2",
+        "bear_plushie",
+        "wolf_plushie"
+      ],
+      "prompts": [
+        "two dogs and two plush toys on a lawn",
+        "two dogs and two plush toys on a bed",
+        "two dogs, and two plush toys together in a photography studio, softbox lighting, sharp focus",
+        "two dogs, and two plush toys arranged in a cozy living room, warm natural light, photorealistic",
+        "two dogs, and two plush toys outdoors at golden hour, cinematic composition, professional photography"
+      ]
+    }
+  }
+}

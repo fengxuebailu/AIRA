@@ -1,0 +1,110 @@
+{
+  "status": "surviving_local_prompts_not_full_single_subject_benchmark",
+  "sources": [
+    "scripts/run_dreambench_single.py",
+    "scripts/run_showcase_single.py"
+  ],
+  "dreambench_examples": [
+    {
+      "subject": "dog",
+      "prompt": "a sks dog sitting on a beach with waves in the background"
+    },
+    {
+      "subject": "cat",
+      "prompt": "a sks cat lying on a velvet sofa in a cozy living room"
+    },
+    {
+      "subject": "bear_plushie",
+      "prompt": "a sks stuffed animal sitting on a wooden shelf in a bookstore"
+    },
+    {
+      "subject": "colorful_sneaker",
+      "prompt": "a sks sneaker displayed on a glass pedestal in a modern gallery"
+    },
+    {
+      "subject": "teapot",
+      "prompt": "a sks teapot on a rustic kitchen table with morning sunlight"
+    },
+    {
+      "subject": "robot_toy",
+      "prompt": "a sks toy robot standing on a desk next to a stack of books"
+    }
+  ],
+  "showcase_examples": [
+    {
+      "subject": "hutao",
+      "class": "girl",
+      "prompt": "a sks girl standing on the Great Wall of China with mountains in the background"
+    },
+    {
+      "subject": "hutao",
+      "class": "girl",
+      "prompt": "a sks girl sitting on a beach at sunset with ocean waves"
+    },
+    {
+      "subject": "hutao",
+      "class": "girl",
+      "prompt": "a sks girl in a chef outfit cooking in a restaurant kitchen"
+    },
+    {
+      "subject": "hutao",
+      "class": "girl",
+      "prompt": "a sks girl in watercolor painting style"
+    },
+    {
+      "subject": "huangshaotian",
+      "class": "boy",
+      "prompt": "a sks boy standing in a cyberpunk city with neon lights at night"
+    },
+    {
+      "subject": "huangshaotian",
+      "class": "boy",
+      "prompt": "a sks boy in a police uniform standing in front of a patrol car"
+    },
+    {
+      "subject": "huangshaotian",
+      "class": "boy",
+      "prompt": "a sks boy on a frozen Antarctic lake with aurora borealis in the sky"
+    },
+    {
+      "subject": "huangshaotian",
+      "class": "boy",
+      "prompt": "a sks boy in sticker style, white background, die-cut sticker"
+    },
+    {
+      "subject": "zhouzekai",
+      "class": "boy",
+      "prompt": "a sks boy in a burning volcano landscape with lava and smoke"
+    },
+    {
+      "subject": "zhouzekai",
+      "class": "boy",
+      "prompt": "a sks boy wearing a space suit floating in outer space with Earth in the background"
+    },
+    {
+      "subject": "zhouzekai",
+      "class": "boy",
+      "prompt": "a sks boy in a traditional Chinese ink painting style"
+    },
+    {
+      "subject": "zhouzekai",
+      "class": "boy",
+      "prompt": "a sks boy in flat vector illustration style, minimal colors"
+    },
+    {
+      "subject": "cyberpunk",
+      "class": "girl",
+      "prompt": "a sks girl in a Van Gogh starry night painting style"
+    },
+    {
+      "subject": "cyberpunk",
+      "class": "girl",
+      "prompt": "a sks girl standing in a snowy forest with falling snowflakes"
+    },
+    {
+      "subject": "cyberpunk",
+      "class": "girl",
+      "prompt": "a sks girl in cartoon style with bold outlines and bright colors"
+    }
+  ]
+}
