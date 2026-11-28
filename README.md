@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 ## Quick Start
 
-Prompt inventories for the distinct single-, two-, three-, and four-subject experiments are documented in [evaluation/README.md](evaluation/README.md). The reconstructed two-subject prompts are candidates, not the original paper's recovered validation set or verified metric results.
+Prompt inventories for the single-, two-, three-, and four-subject experiments are in [evaluation/README.md](evaluation/README.md).
 
 ### Single-subject personalization
 
