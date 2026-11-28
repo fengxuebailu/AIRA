@@ -1,6 +1,11 @@
 {
   "status": "surviving_local_config_generation_outputs_not_audited",
   "source": "scripts/four_subject_config.py",
+  "reference_resolution": {
+    "mix_wear": {
+      "sneaker": "colorful_sneaker"
+    }
+  },
   "seeds": [
     42,
     43,
@@ -75,7 +80,7 @@
     "mix_wear": {
       "subjects": [
         "backpack",
-        "sneaker",
+        "colorful_sneaker",
         "fancy_boot",
         "pink_sunglasses"
       ],

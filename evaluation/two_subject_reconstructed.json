@@ -539,19 +539,18 @@
           "provenance": "surviving_experiment_config"
         },
         {
-          "text": "a sks1 dog and a sks2 clock sitting beside a bright yellow alarm clock in a cozy room",
-          "provenance": "figure_scene_inference"
-        },
-        {
-          "text": "a sks1 dog and a sks2 clock resting near an alarm clock on a patterned living room rug",
+          "text": "a sks1 dog and a sks2 clock in a cozy room, the dog sitting beside the bright yellow clock",
           "provenance": "new_scene_reconstruction"
         },
         {
-          "text": "a sks1 dog and a sks2 clock posed beside an alarm clock against a floral studio backdrop",
+          "text": "a sks1 dog and a sks2 clock on a patterned living room rug, the dog resting near the clock",
+          "provenance": "new_scene_reconstruction"
+        },
+        {
+          "text": "a sks1 dog and a sks2 clock against a floral studio backdrop, the dog posed beside the yellow clock",
           "provenance": "new_scene_reconstruction"
         }
-      ],
-      "warning": "The paper figure shows a fluffy white dog, but the surviving dog_clock configuration uses dog3 (corgi). Verify the reference mapping before generation."
+      ]
     },
     "dog_teapot": {
       "subjects": [
@@ -656,11 +655,11 @@
           "provenance": "surviving_experiment_config"
         },
         {
-          "text": "a sks1 dog and a sks2 toy car lying beside a red toy car on a living room carpet, both clearly visible",
+          "text": "a sks1 dog and a sks2 toy car on a living room carpet, the dog lying down and the red toy car near its paws",
           "provenance": "figure_scene_inference"
         },
         {
-          "text": "a sks1 dog and a sks2 toy car sitting near a toy car on a sunlit driveway",
+          "text": "a sks1 dog and a sks2 toy car on a sunlit driveway, the dog sitting near the toy car",
           "provenance": "new_scene_reconstruction"
         },
         {
